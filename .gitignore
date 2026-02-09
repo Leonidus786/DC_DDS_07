@@ -1,23 +1,83 @@
-# Ignore virtual environments
-venv/
-.env/
-
-# Ignore requirements file
-requirements.txt
-
-# Ignore cache & system files
+# ----------------------------
+# PYTHON
+# ----------------------------
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg-info/
+.eggs/
 
+# ----------------------------
+# VIRTUAL ENVIRONMENTS
+# ----------------------------
+ds_core/
+da_core/
+ml_core/
+venv/
+.env/
+.env.*
 
-
-# Ignore OS-specific files
-*.DS_Store
-
-# Ignore Jupyter Notebook checkpoints
+# ----------------------------
+# JUPYTER
+# ----------------------------
 .ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ----------------------------
+# DATA FILES (DO NOT COMMIT)
+# ----------------------------
+
+
+
+*.parquet
+
+*.zip
+
+# ----------------------------
+# MODEL ARTIFACTS
+# ----------------------------
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# ----------------------------
+# LOGS & OUTPUTS
+# ----------------------------
+logs/
+outputs/
+mlruns/
+wandb/
+
+# ----------------------------
+# IDE / OS
+# ----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# CACHE / TEMP
+# ----------------------------
+.cache/
+tmp/
+temp/
+
+# ----------------------------
+# SECRETS
+# ----------------------------
+*.pem
+*.key
+*.crt
+secrets/
+
 
 # Ignore VS Code settings
 .vscode/

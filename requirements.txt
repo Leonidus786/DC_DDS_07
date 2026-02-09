@@ -1,0 +1,6 @@
+Numpy
+pandas
+matplotlib
+seaborn
+openpyexcel
+scikit-learn
