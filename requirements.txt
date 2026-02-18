@@ -5,3 +5,4 @@ seaborn
 openpyexcel
 scikit-learn
 flask
+streamlit

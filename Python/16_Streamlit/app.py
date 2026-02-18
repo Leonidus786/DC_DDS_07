@@ -6,7 +6,7 @@ import requests
 from streamlit_searchbox import st_searchbox
 
 ## Title of the aplication
-st.title("Hello, Ankul.")
+st.title("Hello, Harsh.")
 st.title("Hello, learners welcome to the world of Streamlit.")
 
 ## Diplay a Simple Text
